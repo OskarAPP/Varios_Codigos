@@ -10,4 +10,10 @@ if($edad >= 18){
 }   else{
         echo "Eres menor de edad";
     }
+
+//las funciones se definen con la palabra "function" 
+function sumar ($a, $b){
+    return $a + $b;
+    
+}
 ?>
